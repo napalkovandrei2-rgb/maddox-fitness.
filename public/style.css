@@ -27,3 +27,19 @@
 .team-card-info .btn{margin-top:10px}
 .team-photo-note{font-size:10px;line-height:1.7;color:#777;margin-top:20px}
 @media(max-width:650px){.team-extra{margin-top:65px;padding-top:40px}.team-extra-heading{display:block}.team-cards{grid-template-columns:1fr}.team-card-photo{height:340px}.team-card-info>p:not(.team-role){min-height:0}}
+
+
+/* Trainer profiles use the same editorial layout as the lead MADDOX trainer */
+.team-extra{margin-top:85px;padding-top:55px;border-top:1px solid #393939}
+.team-extra-heading{margin-bottom:48px}
+.team-extra-heading .eyebrow{margin:0 0 18px}
+.team-extra-heading h3{font:500 clamp(38px,5vw,66px)/.98 Oswald;margin:0;letter-spacing:-1px}
+.team-extra-heading h3 span{color:#d7ff35}
+.trainer-grid-extra{margin-top:0;margin-bottom:75px}
+.trainer-grid-extra .trainer-photo{min-height:600px}
+.trainer-grid-extra .trainer-photo img{height:650px}
+.trainer-grid-reverse .trainer-photo{order:2}
+.trainer-grid-reverse .trainer-info{order:1}
+.team-photo-note{font-size:10px;line-height:1.7;color:#777;margin-top:12px}
+@media(max-width:850px){.trainer-grid-extra .trainer-photo,.trainer-grid-extra .trainer-photo img{height:560px;min-height:560px}}
+@media(max-width:650px){.team-extra{margin-top:65px;padding-top:40px}.team-extra-heading{margin-bottom:35px}.trainer-grid-extra{margin-bottom:55px}.trainer-grid-reverse .trainer-photo,.trainer-grid-reverse .trainer-info{order:initial}.trainer-grid-extra .trainer-photo,.trainer-grid-extra .trainer-photo img{height:500px;min-height:0}}
