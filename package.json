@@ -1,6 +1,9 @@
 {
-  "name": "maddox-fitness-site",
+  "name": "maddox-fitness",
   "version": "1.0.0",
+  "engines": {
+    "node": "22.x"
+  },
   "private": true,
   "description": "MADDOX fitness club website and registration API",
   "main": "server.js",
